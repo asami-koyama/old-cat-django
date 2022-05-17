@@ -1,13 +1,27 @@
-# cat-django
-# test
-## test
-* kajo
-* kajo
-* kajo
+
+# django react 環境構築
 
 
-aaaaaaa`test`aaaaaaaaa
+## 構築方法
+- 環境取得
+```
+git clone https://github.com/asami-koyama/cat-django
+cd cat-django
+```
 
+- django_react/setting.py 書き換え
+```txt
+ALLOWED_HOSTS = ['<<サーバIPアドレス>>']
+```
 
+- 起動
+```
+docker-compose up -d
+docker-compose ps
+```
 
-django react mysql
+- アクセス確認
+```
+http://＜＜サーバIPアドレス＞＞:3000
+```
+
