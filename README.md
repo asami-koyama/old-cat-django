@@ -25,3 +25,4 @@ docker-compose ps
 http://＜＜サーバIPアドレス＞＞:3000
 ```
 
+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
